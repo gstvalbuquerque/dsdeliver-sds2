@@ -1,0 +1,5 @@
+package com.gustadev.dsdeliver.entities;
+
+public class Product {
+
+}
