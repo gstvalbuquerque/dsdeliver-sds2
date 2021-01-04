@@ -1,0 +1,5 @@
+package com.gustadev.dsdeliver.dto;
+
+public class ProductDTO {
+
+}

@@ -1,0 +1,5 @@
+package com.gustadev.dsdeliver.repositories;
+
+public class ProductRepository {
+
+}
