@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\gusta\Desktop\Estudos de Programação\SDS2\.metadata\.plugins\org.eclipse.jdt.core
+2820868001.index
+4287550574.index
+1965174767.index
