@@ -20,7 +20,6 @@ public class Order {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
 	private String address;
 	private Double latitude;
 	private Double longitude;
@@ -33,6 +32,9 @@ public class Order {
 		inverseJoinColumns = @JoinColumn(name = "product_id")
 			)
 	private Set<Product> products = new HashSet<>();
+	
+	public Order() {
+	}
 
 	public Order(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
 		super();
