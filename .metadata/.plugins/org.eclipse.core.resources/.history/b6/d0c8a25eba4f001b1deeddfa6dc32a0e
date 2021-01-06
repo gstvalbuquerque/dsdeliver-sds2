@@ -38,9 +38,8 @@ public class OrderService {
 		
 		for (ProductDTO p : dto.getProducts()) {
 			Product product = productRepository.getOne(p.getId());
-			order.getProducts().add(product);
+			order.getProducts().add(null)
 		}
-		order = repository.save(order);
-		return new OrderDTO(order);
+		
 	}
 }
