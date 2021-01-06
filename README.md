@@ -1,3 +1,3 @@
 # dsdeliver-sds2
 
-Backend project using java 11 and deployed using heroku.
+Backend project using Java 11 with Spring Boot and deployed using Heroku.
